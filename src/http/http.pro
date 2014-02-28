@@ -18,7 +18,9 @@ HEADERS += \
     QDjangoHttpServer.h \
     QDjangoHttpServer_p.h \
     QDjangoUrlResolver.h \
-    QDjangoTemplate.cpp
+    QDjangoTemplate.cpp \
+    QDjangoHttpSessionStore.h \
+    QDjangoHttpSession.h
 SOURCES += \
     QDjangoFastCgiServer.cpp \
     QDjangoHttpController.cpp \
@@ -26,7 +28,9 @@ SOURCES += \
     QDjangoHttpResponse.cpp \
     QDjangoHttpServer.cpp \
     QDjangoUrlResolver.cpp \
-    QDjangoTemplate.cpp
+    QDjangoTemplate.cpp \
+    QDjangoHttpSessionStore.cpp \
+    QDjangoHttpSession.cpp
 
 # Installation
 include(../src.pri)
